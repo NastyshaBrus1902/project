@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html land = 'en'>
+<head>
+    <meta charset = 'UTF-8'>
+    <title>Cайт</title>
+    <style type="text/css">
+        body{
+           background:#ffc0e7;
+        }
+        #containerl
+        {
+            float:left; 
+            width: 33%; 
+            background: #ffc0e7;
+        }
+        #containerr
+        {
+            float:right; 
+            width: 33%; 
+            background:  #ffc0e7;
+        }
+        .gradient-btn{
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            padding: 20px 30px;
+            margin: 10px 20px;
+            border-radius: 25px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            background-image: linear-gradient(to right, #0004ff 0%, #ff0000 50%, #ffa600 100%);
+            background-size: 300% auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+            transition: 1s;
+        }
+        .gradient-btn:hover {
+            background-position: right center;
+            
+        }
+    </style>
+</head>
+<body>
+<div>
+    <div id="containerl"><a class="gradient-btn" href='https:mail.ru'> Left</a></div>
+    <div id="containerr"><a class="gradient-btn" href='https:mail.ru'> Right </a></div>
+</div>
+</body>
+</html>
